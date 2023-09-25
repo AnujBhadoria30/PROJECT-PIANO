@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <div id="main">
+        
+        <div id="header">
+            <div id="name">Playable Piano</div>
+            <div id="volum">Volum<input type="range" class="volum"></div>
+            <div id="show">Show Keyy<button type="button" onclick="Event()" id="btn"><span id="spn_1"></span></button></div>
+            <!-- <button type="button" onclick="Event()", id="btn"><span></span></button> -->
+        </div>
+        <div id="keys">
+            <div id="centerdiv">
+                <button class="key yup" data-key="A" ><div class="bottom">A</div></button>
+                <button class="key1 yup" data-key="W"><div>W</div></button>
+                <button class="key yup" data-key="S"><div class="bottom">S</div></button>
+                <button class="key2 yup" data-key="E"><div>E</div></button>
+                <button class="key yup" data-key="D"><div class="bottom">D</div></button>
+                <button class="key yup" data-key="F"><div class="bottom">F</div></button>
+                <button class="key3 yup" data-key="T"><div>T</div></button>
+                <button class="key yup" data-key="H"><div class="bottom">H</div></button>
+                <button class="key4 yup" data-key="G"><div>G</div></button>
+                <button class="key yup" data-key="U"><div class="bottom">U</div></button>
+                <button class="key5 yup" data-key="Y"><div>Y</div></button>
+                <button class="key yup" data-key="O"><div class="bottom">O</div></button>
+                <button class="key yup" data-key="L"><div class="bottom">L</div></button>
+                <button class="key6 yup" data-key="J"><div>J</div></button>
+                <button class="key yup" data-key="P"><div class="bottom">P</div></button>
+                <button class="key7 yup" data-key="K"><div>K</div></button>
+                <button class="key yup" data-key=";"><div class="bottom">;</div></button>
+            </div>
+            
+        </div>
+    </div> 
+    <audio src="./tunes/a.wav" id="music"></audio>
+</body>
+<script src="p.js" ></script>
+</html>
